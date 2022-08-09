@@ -1,15 +1,6 @@
 {
   "pins" : [
     {
-      "identity" : "wescan",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/WeTransfer/WeScan.git",
-      "state" : {
-        "revision" : "9787c79729823928277f02fb9c7cbb88d87926cd",
-        "version" : "1.8.1"
-      }
-    },
-    {
       "identity" : "wikipediakit",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Raureif/WikipediaKit",

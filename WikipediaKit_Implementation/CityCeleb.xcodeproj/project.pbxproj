@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2FE925B52885E6F700F274C7 /* WeScan in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE925B42885E6F700F274C7 /* WeScan */; };
-		2FE925BA2885E88000F274C7 /* WeScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE925B92885E88000F274C7 /* WeScanViewController.swift */; };
 		2FEEA9502880E3C4006D29B1 /* CityCelebApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEEA94F2880E3C4006D29B1 /* CityCelebApp.swift */; };
 		2FEEA9522880E3C4006D29B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEEA9512880E3C4006D29B1 /* ContentView.swift */; };
 		2FEEA9542880E3C6006D29B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FEEA9532880E3C6006D29B1 /* Assets.xcassets */; };
@@ -18,7 +16,6 @@
 
 /* Begin PBXFileReference section */
 		2FE925B82885E7F800F274C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		2FE925B92885E88000F274C7 /* WeScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeScanViewController.swift; sourceTree = "<group>"; };
 		2FEEA94C2880E3C4006D29B1 /* CityCeleb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CityCeleb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FEEA94F2880E3C4006D29B1 /* CityCelebApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCelebApp.swift; sourceTree = "<group>"; };
 		2FEEA9512880E3C4006D29B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -31,7 +28,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FE925B52885E6F700F274C7 /* WeScan in Frameworks */,
 				2FFA48C228A1E3B300D6791C /* WikipediaKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -61,7 +57,6 @@
 				2FE925B82885E7F800F274C7 /* Info.plist */,
 				2FEEA94F2880E3C4006D29B1 /* CityCelebApp.swift */,
 				2FEEA9512880E3C4006D29B1 /* ContentView.swift */,
-				2FE925B92885E88000F274C7 /* WeScanViewController.swift */,
 				2FEEA9532880E3C6006D29B1 /* Assets.xcassets */,
 				2FEEA9552880E3C6006D29B1 /* Preview Content */,
 			);
@@ -93,7 +88,6 @@
 			);
 			name = CityCeleb;
 			packageProductDependencies = (
-				2FE925B42885E6F700F274C7 /* WeScan */,
 				2FFA48C128A1E3B300D6791C /* WikipediaKit */,
 			);
 			productName = CityCeleb;
@@ -125,7 +119,6 @@
 			);
 			mainGroup = 2FEEA9432880E3C4006D29B1;
 			packageReferences = (
-				2FE925B32885E6F700F274C7 /* XCRemoteSwiftPackageReference "WeScan" */,
 				2FFA48C028A1E3B300D6791C /* XCRemoteSwiftPackageReference "WikipediaKit" */,
 			);
 			productRefGroup = 2FEEA94D2880E3C4006D29B1 /* Products */;
@@ -155,7 +148,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FEEA9522880E3C4006D29B1 /* ContentView.swift in Sources */,
-				2FE925BA2885E88000F274C7 /* WeScanViewController.swift in Sources */,
 				2FEEA9502880E3C4006D29B1 /* CityCelebApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,14 +355,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		2FE925B32885E6F700F274C7 /* XCRemoteSwiftPackageReference "WeScan" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/WeTransfer/WeScan.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
 		2FFA48C028A1E3B300D6791C /* XCRemoteSwiftPackageReference "WikipediaKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Raureif/WikipediaKit";
@@ -382,11 +366,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		2FE925B42885E6F700F274C7 /* WeScan */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 2FE925B32885E6F700F274C7 /* XCRemoteSwiftPackageReference "WeScan" */;
-			productName = WeScan;
-		};
 		2FFA48C128A1E3B300D6791C /* WikipediaKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 2FFA48C028A1E3B300D6791C /* XCRemoteSwiftPackageReference "WikipediaKit" */;

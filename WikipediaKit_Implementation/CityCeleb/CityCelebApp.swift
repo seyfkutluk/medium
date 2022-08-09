@@ -11,6 +11,7 @@ import WikipediaKit
 @main
 struct CityCelebApp: App {
     init() {
+        // MARK: ADD your email
         WikipediaNetworking.appAuthorEmailForAPI = ""
     }
     var body: some Scene {

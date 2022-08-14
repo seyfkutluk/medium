@@ -10,7 +10,7 @@ https://medium.com/@seyfkutluk
 
    * [Github](https://github.com/seyfkutluk/medium/tree/main/WikipediaKit_Implementation)
    
-   * [Download](https://downgit.github.io/#/home?url=https://github.com/seyfkutluk/medium/tree/main/WikipediaKit_Implementation)   
+   * [Download](https://downgit.github.io/#/home?url=https://github.com/seyfkutluk/medium/tree/main/WikipediaKit)   
 
 ## NOTE 
 

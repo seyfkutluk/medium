@@ -9,6 +9,8 @@ https://medium.com/@seyfkutluk
    * [Medium](https://medium.com/@seyfkutluk/using-wikipediakit-to-import-wikipedia-content-for-your-ios-swift-application-1a57d07e9fab)
 
    * [Github](https://github.com/seyfkutluk/medium/tree/main/WikipediaKit_Implementation)
+   
+   * [Download](https://downgit.github.io/#/home?url=https://github.com/seyfkutluk/medium/tree/main/WikipediaKit_Implementation)   
 
 ## NOTE 
 
